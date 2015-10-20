@@ -4,6 +4,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git branch --help` or `$git log --help`
 
+
 ### Essential Git Commands
 
 ####Create a new git repository
@@ -22,12 +23,12 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git log -p [filename]` __Fill Me Out__
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - adds a specific filename to commit
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` - adds all files to commit
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - __Fill Me Out__
+`$ git commit -m "<commit message>"` - commits the file to be ready to be pushed with a message on what the file is about.
 
 #### Branching
 `$ git branch <branch name>` - __Fill Me Out__
